@@ -6,6 +6,9 @@ body {
   width: 100%;
   font-family: Myriad Pro;
 }
+a {
+  text-decoration: none;
+}
 .header {
   text-align: center;
   display: block;
@@ -143,7 +146,6 @@ body {
   height: 325px;
   color: #7e7f84;
   display: inline-block;
-  font-family: Myriad Pro;
   text-align: left;
   margin-right: 26px;
 }
@@ -290,25 +292,22 @@ body {
   font-weight: lighter;
   margin-bottom: 2px;
 }
-.social {
+.fa {
   margin-top: 40px;
-  background: url(../images/social.png) no-repeat;
-  float: left;
-  width: 35px;
-  height: 20px;
+  margin-right: 11px;
+  color: #656363;
 }
-.twitter {
-  background-position: -35px 0;
+.fa:last-child {
+  margin-right: 0;
 }
-.google {
-  background-position: -70px 0;
+.footer .fa {
+  color: #ffffff;
+  margin-top: 11px;
 }
-.vk {
-  background-position: -105px 0;
+.fa:hover {
+  color: #ef4035;
 }
-.radio {
-  background-position: -140px 0;
-}
+
 .describe {
   border-left: 1px solid #eeeeee;
   padding-left: 18px;
@@ -457,5 +456,4 @@ body {
   padding: 12px 20px;
   background-color: #f45a40;
   color: #ffffff;
-
 }
