@@ -217,11 +217,66 @@ a {
   left: 118px;
   display: none;
 }
-.star {
+.star-line {
   position: absolute;
   top:13px;
   left: 10px;
-  display: none;
+  height: 14px;
+  width:75px;
+  background: url(../images/stars.png);
+  /*display: none;*/
+}
+.star-line li {
+  float: left;
+  height: 14px;
+  list-style-type: none;
+}
+.star-line .current {
+  background: url(../images/stars.png) 0px -14px;
+  z-index: 2;
+}
+.star-line li span {
+  position: absolute;
+  z-index: 3;
+  display: block;
+  width: 15px;
+  height: 14px;
+}
+
+.star-line li span.star1 {
+  left: 0;
+}
+.star-line li span.star1:hover {
+  width: 15px;
+}
+.star-line li span.star2 {
+  left: 15px;
+}
+.star-line li span.star2:hover {
+  width: 30px;
+}
+.star-line li span.star3 {
+  left: 30px;
+}
+.star-line li span.star3:hover {
+  width: 45px;
+}
+.star-line li span.star4 {
+  left: 45px;
+}
+.star-line li span.star4:hover {
+  width: 60px;
+}
+.star-line li span.star5 {
+  left: 60px;
+}
+.star-line li span.star5:hover {
+  width: 75px;
+}
+.star-line li span:hover {
+  left: 0;
+  background: url(../images/stars.png) 0px -14px;
+  z-index: 5;
 }
 .pop_products h1 {
   font-weight: 100;
